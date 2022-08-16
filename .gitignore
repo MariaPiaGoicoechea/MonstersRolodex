@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# production
+build
+build-dev
+
+# misc
+.DS_Store
+npm-debug.log
+yarn-error.log
+package-lock.json
+*.iml
+*.tmp
+stats.json
+
+# nyc
+.nyc_output
+
+# Webstorm IDE
+.idea
+
+
+### VisualStudioCode ###
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# environment
+.env
